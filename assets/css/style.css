@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    box-sizing: border-box;
+    --col1: red;
+    --col2: rgb(111, 0, 255);
+    --col3: green;
+    --col4: purple;
+    --col5: yellow;
+
+
+}
+
+.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1%;
+        grid-auto-rows: 1fr;
+        height: 100vh
+    }
+
+.box1 {
+    background: var(--col1);
+    border-radius: 3%;
+    
+}
+
+.box2 {
+    background: var(--col2);
+    border-radius: 3%;
+
+}
+
+.box3 {
+    background: var(--col3);
+    border-radius: 3%;
+
+}
+
+.box4 {
+    background: var(--col4);
+    border-radius: 3%;
+
+}
+
+.box5 {
+    background: var(--col5);
+    border-radius: 3%;
+
+}
